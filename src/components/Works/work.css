@@ -1,0 +1,163 @@
+.beyond__works {
+  background-color: gray;
+  padding-top: 20px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-start; */
+}
+
+.beyond__works h4 {
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px 1px;
+}
+
+.beyond__works-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.beyond__works-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.beyond__work-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.beyond__work-detail h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 5rem;
+}
+
+.beyond__work-detail h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 10px;
+}
+
+.beyond__work-detail p {
+  font-size: 1.2rem;
+  font-weight: 500px;
+}
+
+.beyond__work-detail :last-child {
+  text-decoration: underline;
+  font-size: 18px;
+  font-weight: 500;
+  color: blue;
+  cursor: pointer;
+}
+.beyond__works-image {
+  width: 75%;
+}
+
+.beyond__works-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.beyond__works-para {
+  padding: 1rem;
+  margin-left: 3rem;
+  width: 70%;
+}
+
+.beyond__works-para p {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+/* MEDIA QUERY FOR TABLETS */
+
+@media screen and (max-width: 1050px) {
+  .beyond__works-image {
+    width: 70%;
+  }
+
+  .beyond__works-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .beyond__works-para {
+    padding: 1rem;
+    margin-left: 10px;
+    width: 80%;
+  }
+
+  .beyond__works-para p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .beyond__works-image {
+    width: 60%;
+  }
+
+  .beyond__works-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .beyond__works-para {
+    padding: 1rem;
+    width: 90%;
+  }
+
+  .beyond__works-para p {
+    font-size: 18px;
+  }
+}
+
+/* MOBILE PHONES  */
+@media screen and (max-width: 550px) {
+  .beyond__work-detail h3 {
+    font-size: 1.2rem;
+    line-height: 3rem;
+  }
+
+  .beyond__work-detail h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 10px;
+  }
+
+  .beyond__work-detail p {
+    font-size: 1rem;
+  }
+
+  .beyond__work-detail :last-child {
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: 500;
+    color: blue;
+    cursor: pointer;
+  }
+
+  .beyond__works-para {
+    padding: 1rem;
+    width: 90%;
+  }
+
+  .beyond__works-para p {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,56 @@
+.beyond__services h4 {
+  font-weight: 600;
+  font-size: 26px;
+  text-align: center;
+  margin: 20px;
+}
+
+.beyond__gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Three equal-width columns */
+  grid-template-rows: (3, 1fr);
+  /* width: 100vh;
+  height: 100vh; */
+}
+
+.beyond__gallery img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery__item--1 {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.gallery__item--2 {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.gallery__item--3 {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.gallery__item--4 {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.gallery__item--5 {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.gallery__item--6 {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.gallery__item--7 {
+  grid-column: span 1;
+  grid-row: span 1;
+}
