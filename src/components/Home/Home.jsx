@@ -1,4 +1,5 @@
 import "./home.css";
+import ImageComponent from "../ImageComponent";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -16,13 +17,30 @@ const Home = () => {
     autoplaySpeed: 2000,
   };
 
+  const hash = 'LEIYnUX=^-?E9RT25SjCt.i^#jxV';
+
   return (
     <div className="header__bg" id="about">
       <div className="imgslides">
         <Slider {...settings} className="slides">
+          <ImageComponent
+            src={caro1}
+            alt={caro1}
+            hash={hash}
+          />
+          <ImageComponent
+            src={caro1}
+            alt={caro1}
+            hash={hash}
+          />
+          <ImageComponent
+            src={caro1}
+            alt={caro1}
+            hash={hash}
+          />
+          {/* <img src={caro1} alt="" />
           <img src={caro1} alt="" />
-          <img src={caro1} alt="" />
-          <img src={caro1} alt="" />
+          <img src={caro1} alt="" /> */}
         </Slider>
       </div>
 

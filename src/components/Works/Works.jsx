@@ -1,6 +1,7 @@
 import work1 from "../../assets/work1.png";
 import work2 from "../../assets/work2.png";
 import work3 from "../../assets/work3.png";
+import ImageComponent from "../ImageComponent";
 import "./work.css";
 
 const Works = () => {
@@ -16,7 +17,12 @@ const Works = () => {
             <p>View Details</p>
           </div>
           <div className="beyond__works-image">
-            <img src={work1} alt="" />
+            {/* <img src={work1} alt="" /> */}
+            <ImageComponent
+              src={work1}
+              alt={"kano"}
+              hash="LTGb|]4.?wSixcxaNNtSIvWXW@og"
+            />
           </div>
         </div>
 
@@ -28,7 +34,12 @@ const Works = () => {
             <p>View Details</p>
           </div>
           <div className="beyond__works-image">
-            <img src={work2} alt="" />
+            {/* <img src={work2} alt="" /> */}
+            <ImageComponent
+              src={work2}
+              alt={"abuja"}
+              hash="LZJR?mobRjah0rads:bIyGt7axkC"
+            />
           </div>
         </div>
 
@@ -40,7 +51,12 @@ const Works = () => {
             <p>View Details</p>
           </div>
           <div className="beyond__works-image">
-            <img src={work3} alt="" />
+            {/* <img src={work3} alt="" /> */}
+            <ImageComponent
+              src={work3}
+              alt={"Lagos"}
+              hash="LLGIG##i~8tA-rNFRhWaE4t7M{bc"
+            />
           </div>
         </div>
       </div>
